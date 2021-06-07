@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+main {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+.main {
+    width: 580px;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.searchBx {
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+.query {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 16px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    padding-left: 48px;
+    padding-right: 50px;
+}
+.icons {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    pointer-events: none;
+}
+.icons img {
+    max-width: 100%;
+}
+.button {
+    display: flex;
+}
+.button button {
+    margin: 0 6px;
+    margin-top: 28px;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border: 1px solid transparent;
+    outline: none;
+    display: flex;
+    align-items: center;
+}
+.button button:hover {
+    border-color: #ccc;
+}
+.button button img {
+    width: 20px;
+    margin-right: 6px;
+}
+.author span {
+    display: inline-block;
+    margin-top: 25px;
+}
+.searchBx input:hover {
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+}
